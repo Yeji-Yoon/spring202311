@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/common}">
+
+<th:block layout:fragment="addCss">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/main.css}">//랜더링//스타일
+</th:block>
+
+<th:block layout:fragment="addScript">
+    <script th:src="@{/js/main.js}"></script>//스크립트 엔진//자바스프링
+</th:block>
+
+<main layout:fragment="content">
+    <h1>메인페이지 본문...</h1>
+</main>
+
+</html>
+<!--
+<head>
+    <meta charset="UTF-8">
+    <title>사이트 제목...</title>
+</head>
+<body>
+    <header th:replace="~{outlines.header::common}"></header>
+    <main>
+        <h1>qhsans....</h1>
+    </main>
+    <fotter th:replace="~{outlines.footer::common}"></fotter>
+</body>
+-->
+

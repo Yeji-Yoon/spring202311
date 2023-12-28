@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>회원가입</title>
+    </head>
+    <body>
+        <th:block th:object="${member}">
+            <h1 th:text="${pageTitle}"></h1>
+        <div th:text="*{#messages.msg('LOGIN_MSG',userNm,userId)}"></div>
+        <!--th+속성 :현재 주소를 대체-->
+        <a th:href="@{/member/login(userId=*{userId},userNm=*{userNm})}" >로그인</a>
+
+        <a th:href="@{/member/info/{id}(id=*{userId})}">회원정보</a>
+        <dl>
+            <dt th:text="#{아이디}">아이디</dt>
+            <dd>[[ *{@utis.toUpper(userId)}]]</dd>
+        </dl>
+        <dl>
+            <dt th:text="#{회원명}"></dt><!-- 지워도 입력됨.commons.properties에 입력되어 있기 때문에 -->
+            <dd th:utext ="*{userNm}">이이름</dd>
+        </dl>
+        </th:block>
+    </body>
+</html>
