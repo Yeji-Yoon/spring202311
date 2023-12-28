@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+    <!--stdout : standardout.표준-->
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- 날짜와 시간 -->
+            <pattern>%d %5p %c{2} - %m%n</pattern>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="stdout" />
+    </root>
+
+    <logger name="org.springframework.jdbc" level="TRACE" />
+    <logger name="mapper" level="TRACE"/>
+</configuration>
