@@ -14,6 +14,8 @@ public class Ex01 {
         }
         File file = new File("D:/folder/text1.txt");
         //file.createNewFile();
+
         File.createTempFile("tmp_",".log",new File("D:/"))
+
     }
 }
