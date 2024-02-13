@@ -1,0 +1,52 @@
+server:
+  port: 3000
+
+spring:
+  # 프로필 설정
+  #profiles:
+  #  active: dev
+
+  # 파일 업로드 설정
+  servlet:
+    multipart:
+      maxFileSize: 20MB
+      maxRequestSize: 60MB
+
+  # 정적 자원 설정(CSS, JS, 이미지)
+  # 서버를 껐다 켜지 않아도 바로바로됨.
+  web:
+    resources:
+      staticLocations: file:src/main/resources/static/
+
+  # 데이터베이스 설정
+  # 설정만 넣게 되면 커넥션 풀이 만들어짐.
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: SPRING6
+    password: _aA123456
+
+  # 라이브 리로드 설정
+  #
+  devtools:
+    livereload:
+      enabled: true
+
+  # 타임리프 설정
+  # cache는 개발할때 고정되어 있으면 불편
+  thymeleaf:
+    cache: false
+    prefix: file:src/main/resources/templates/
+
+
+# 파일 설정
+file:
+  url: /upload/
+  path: C:/uploads/
+
+# 로거 설정
+logging:
+  level:
+    org:
+      springframework:
+        jdbc: trace

@@ -1,38 +1,31 @@
 package tests;
 
+import lombok.Builder;
+import member.controllers.JoinValidator;
 import member.controllers.Member;
 import member.service.BadRequestException;
 import member.service.JoinService;
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("회원 가입 기능 테스트")
+@DisplayName("회원가입 기능 테스트")
 public class JoinServiceTest {
 
-    @BeforeAll // 모든 테스트 케이스 실행전 1번 실행
-    static void beforeAll() {
-        System.out.println("BEFORE ALL");
-    }
+    private JoinService joinService;
 
-    @AfterAll // 모든 테스트 케이스 실행 완료 후 1번 실행
-    static void afterAll() {
-        System.out.println("AFTER ALL");
-    }
-
-    @BeforeEach // 각각의 테스트 케이스 실행 전 호출
-    void beforeEach() {
-        System.out.println("BEFORE EACH");
-    }
-
-    @AfterEach // 각각의 테스트 케이스 실행 후 호출
-    void afterEach() {
-        System.out.println("AFTER EACH");
+    @BeforeEach
+    void init() {
+        joinService = new JoinService(new JoinValidator());
     }
 
     private Member getMember() {
-        return
+        return Member.builder()
+                .userId("user" + System.currentTimeMillis())
+                .userPw("12345678")
+                .confirmPw("12345678")
+                .userNm("사용자")
+                .build();
     }
 
     @Test
@@ -46,15 +39,33 @@ public class JoinServiceTest {
     @Test
     @DisplayName("필수 입력항목(userId, userPw, confirmPw, userNm) 검증, 실패시에는 BadRequestException 발생")
     void requiredField() {
-        assertThrows(BadRequestException.class, () -> {
-            /* userId 검증 - null, 빈값 */
-            Member member = getMember();
-            member.setUserId(null);
-            joinService.join(member);
 
-            member = getMember();
-            member.setUserId("   ");
-            joinService.join(member);
-        });
+    }
+
+    private void requiredFieldTestEach(String field) {
+        Member memberNull = getMember();
+        Member memberBlank = getMember();
+        if (field.equals("userId")) {
+            memberNull.setUserId(null);
+            memberBlank.setUserId("     ");
+        } else if (field.equals("userPw")) {
+            memberNull.setUserPw(null);
+            memberBlank.setUserPw("     ");
+        } else if (field.equals("confirmPw")) {
+            memberNull.setConfirmPw(null);
+            memberBlank.setConfirmPw("     ");
+        } else if (field.equals("userNm")) {
+            memberNull.setUserNm(null);
+            memberBlank.setUserNm("      ");
+        }
+
+        assertAll(
+                () -> {
+                    BadRequestException thrown = assertThrows(BadRequestException.class, () -> joinService.join(memberNull));
+                },
+                () -> {
+                    assertThrows(BadRequestException.class, () -> joinService.join(memberBlank));
+                }
+        );
     }
 }

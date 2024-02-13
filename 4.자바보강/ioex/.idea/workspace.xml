@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8ab7fbf-3365-4ad8-9253-8f7dae7fbfa4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../1.gitexam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../1.gitexam/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam02/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam03/src/main/java/commons/validators/RequiredValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam03/src/main/java/commons/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam03/src/main/java/models/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam03/src/main/java/models/member/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam04/src/main/java/commons/validators/RequiredValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam04/src/main/java/commons/validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam04/src/main/java/models/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam04/src/main/java/models/member/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam05/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam05/src/main/java/aopex/RecCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam06/src/main/java/exam01/MyResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/java/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/java/controllers/admin/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/java/controllers/member/LoginValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/java/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/java/models/member/MemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/resources/mapper/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/webapp/WEB-INF/templates/file/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.스프링/spring_study/exam07/src/main/webapp/WEB-INF/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generics/src/exam02/Pear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../generics/src/exam03/Pear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../streamex/streamex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wrapper/wrapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam01/src/main/java/org/choongang/controllers/member/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam01/src/main/java/org/choongang/repositories/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam01/src/main/java/org/choongang/scheduling/Stat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam01/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/generated/org/choongang/entities/QAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/generated/org/choongang/entities/QBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/generated/org/choongang/entities/QBoardData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/generated/org/choongang/entities/QBoardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/generated/org/choongang/entities/QHashTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/generated/org/choongang/entities/QMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/java/org/choongang/configs/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/java/org/choongang/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5.스프링부트/exam02/src/main/java/org/choongang/entities/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Principal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/PrivateKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/PrivilegedAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/PrivilegedActionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/PrivilegedExceptionAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/ProtectionDomain.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Provider.Service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Provider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/ProviderException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/PublicKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SecureClassLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SecureRandom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SecureRandomParameters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SecureRandomSpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Security.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SecurityPermission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Signature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SignatureException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SignatureSpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/SignedObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Signer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/class-use/Timestamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/RSAKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/RSAMultiPrimePrivateCrtKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/RSAPrivateCrtKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/RSAPrivateKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/RSAPublicKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/class-use/RSAKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/class-use/RSAMultiPrimePrivateCrtKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/class-use/RSAPrivateCrtKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/class-use/RSAPrivateKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/class-use/RSAPublicKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/interfaces/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/MGF1ParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/NamedParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/PKCS8EncodedKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/PSSParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/RSAKeyGenParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/RSAMultiPrimePrivateCrtKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/RSAOtherPrimeInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/RSAPrivateCrtKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/RSAPrivateKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/RSAPublicKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/MGF1ParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/NamedParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/PKCS8EncodedKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/PSSParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/RSAKeyGenParameterSpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/RSAMultiPrimePrivateCrtKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/RSAOtherPrimeInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/class-use/RSAPrivateCrtKeySpec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/security/spec/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/MessageFormat.Field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/MessageFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/Normalizer.Form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/Normalizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/NumberFormat.Field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/NumberFormat.Style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/NumberFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/ParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/ParsePosition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/RuleBasedCollator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/SimpleDateFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/StringCharacterIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/MessageFormat.Field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/MessageFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/Normalizer.Form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/Normalizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/NumberFormat.Field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/NumberFormat.Style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/NumberFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/ParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/ParsePosition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/RuleBasedCollator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/SimpleDateFormat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/class-use/StringCharacterIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/spi/NumberFormatProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/spi/class-use/NumberFormatProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/spi/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/spi/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/text/spi/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/LocalTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/Month.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/MonthDay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/OffsetDateTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/OffsetTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/Period.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/MinguoChronology.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/MinguoDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/MinguoEra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/ThaiBuddhistChronology.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/ThaiBuddhistDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/ThaiBuddhistEra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/class-use/MinguoChronology.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/class-use/MinguoDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/class-use/MinguoEra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/class-use/ThaiBuddhistChronology.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/class-use/ThaiBuddhistDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/class-use/ThaiBuddhistEra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/chrono/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/class-use/LocalTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/class-use/Month.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/class-use/MonthDay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/class-use/OffsetDateTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/class-use/OffsetTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/class-use/Period.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/ResolverStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/SignStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/TextStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/class-use/ResolverStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/class-use/SignStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/class-use/TextStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/format/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/Temporal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalAccessor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalAdjuster.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalAdjusters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalAmount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalQueries.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/TemporalUnit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/Temporal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalAccessor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalAdjuster.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalAdjusters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalAmount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalQueries.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/class-use/TemporalUnit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/temporal/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/zone/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/zone/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/time/zone/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Locale.IsoCountryCode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Locale.LanguageRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Locale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/LongSummaryStatistics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Map.Entry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/MissingFormatArgumentException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/MissingFormatWidthException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/MissingResourceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/NavigableMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/NavigableSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/NoSuchElementException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Objects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Observable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Optional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/OptionalDouble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/OptionalInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/OptionalLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PrimitiveIterator.OfDouble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PrimitiveIterator.OfInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PrimitiveIterator.OfLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PrimitiveIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PriorityQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PropertyPermission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/PropertyResourceBundle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Random.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/RandomAccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/ResourceBundle.Control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/ResourceBundle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Scanner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SequencedCollection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SequencedMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SequencedSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/ServiceConfigurationError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/ServiceLoader.Provider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/ServiceLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SimpleTimeZone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SortedMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SortedSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterator.OfDouble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterator.OfInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterator.OfLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterator.OfPrimitive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterators.AbstractDoubleSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterators.AbstractIntSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterators.AbstractLongSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterators.AbstractSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Spliterators.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/SplittableRandom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Stack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/StringJoiner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/StringTokenizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/TimeZone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/Timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/TimerTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/TooManyListenersException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/TreeMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/TreeSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/UnknownFormatConversionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/UnknownFormatFlagsException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Locale.IsoCountryCode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Locale.LanguageRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Locale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/LongSummaryStatistics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Map.Entry.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/MissingFormatArgumentException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/MissingFormatWidthException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/MissingResourceException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/NavigableMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/NavigableSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/NoSuchElementException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Objects.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Observable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Observer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Optional.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/OptionalDouble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/OptionalInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/OptionalLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PrimitiveIterator.OfDouble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PrimitiveIterator.OfInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PrimitiveIterator.OfLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PrimitiveIterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PriorityQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PropertyPermission.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/PropertyResourceBundle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Queue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Random.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/RandomAccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/ResourceBundle.Control.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/ResourceBundle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Scanner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SequencedCollection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SequencedMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SequencedSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/ServiceConfigurationError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/ServiceLoader.Provider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/ServiceLoader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SimpleTimeZone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SortedMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SortedSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterator.OfDouble.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterator.OfInt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterator.OfLong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterator.OfPrimitive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterators.AbstractDoubleSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterators.AbstractIntSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterators.AbstractLongSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterators.AbstractSpliterator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Spliterators.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/SplittableRandom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Stack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/StringJoiner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/StringTokenizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/TimeZone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/Timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/TimerTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/TooManyListenersException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/TreeMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/TreeSet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/UnknownFormatConversionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/class-use/UnknownFormatFlagsException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/Phaser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/PriorityBlockingQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/RecursiveAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/RecursiveTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/RejectedExecutionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/RejectedExecutionHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/RunnableFuture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/RunnableScheduledFuture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ScheduledExecutorService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ScheduledFuture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ScheduledThreadPoolExecutor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/Semaphore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/StructureViolationException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/StructuredTaskScope.ShutdownOnFailure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/StructuredTaskScope.ShutdownOnSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/StructuredTaskScope.Subtask.State.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/StructuredTaskScope.Subtask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/StructuredTaskScope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/SubmissionPublisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/SynchronousQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadLocalRandom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadPoolExecutor.AbortPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadPoolExecutor.CallerRunsPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadPoolExecutor.DiscardOldestPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadPoolExecutor.DiscardPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/ThreadPoolExecutor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/TimeUnit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/TimeoutException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/TransferQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/LongAccumulator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/LongAdder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/class-use/LongAccumulator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/class-use/LongAdder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/atomic/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/Phaser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/PriorityBlockingQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/RecursiveAction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/RecursiveTask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/RejectedExecutionException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/RejectedExecutionHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/RunnableFuture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/RunnableScheduledFuture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ScheduledExecutorService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ScheduledFuture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ScheduledThreadPoolExecutor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/Semaphore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/StructureViolationException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/StructuredTaskScope.ShutdownOnFailure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/StructuredTaskScope.ShutdownOnSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/StructuredTaskScope.Subtask.State.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/StructuredTaskScope.Subtask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/StructuredTaskScope.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/SubmissionPublisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/SynchronousQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadLocalRandom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadPoolExecutor.AbortPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadPoolExecutor.CallerRunsPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadPoolExecutor.DiscardOldestPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadPoolExecutor.DiscardPolicy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/ThreadPoolExecutor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/TimeUnit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/TimeoutException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/class-use/TransferQueue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/Lock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/LockSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/ReadWriteLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/ReentrantLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/ReentrantReadWriteLock.ReadLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/ReentrantReadWriteLock.WriteLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/ReentrantReadWriteLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/StampedLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/Lock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/LockSupport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/ReadWriteLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/ReentrantLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/ReentrantReadWriteLock.ReadLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/ReentrantReadWriteLock.WriteLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/ReentrantReadWriteLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/class-use/StampedLock.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/locks/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/concurrent/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/java/util/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/Mac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/MacSpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/NoSuchPaddingException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/NullCipher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/SealedObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/SecretKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/SecretKeyFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/SecretKeyFactorySpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/ShortBufferException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/Mac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/MacSpi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/NoSuchPaddingException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/NullCipher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/SealedObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/SecretKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/class-use/SecretKeyFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.base/javax/crypto/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/Messager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/ProcessingEnvironment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/Processor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/RoundEnvironment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/SupportedAnnotationTypes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/SupportedOptions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/SupportedSourceVersion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/Messager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/ProcessingEnvironment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/Processor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/RoundEnvironment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/SupportedAnnotationTypes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/SupportedOptions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/class-use/SupportedSourceVersion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/annotation/processing/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/SourceVersion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/UnknownEntityException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/class-use/SourceVersion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/class-use/UnknownEntityException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/Modifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.Directive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.DirectiveKind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.DirectiveVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.ExportsDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.OpensDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.ProvidesDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.RequiresDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.UsesDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/ModuleElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/Name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/NestingKind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/PackageElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/Parameterizable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/QualifiedNameable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/RecordComponentElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/TypeElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/TypeParameterElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/UnknownAnnotationValueException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/UnknownDirectiveException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/UnknownElementException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/Modifier.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.Directive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.DirectiveKind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.DirectiveVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.ExportsDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.OpensDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.ProvidesDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.RequiresDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.UsesDirective.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/ModuleElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/Name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/NestingKind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/PackageElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/Parameterizable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/QualifiedNameable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/RecordComponentElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/TypeElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/TypeParameterElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/UnknownAnnotationValueException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/UnknownDirectiveException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/class-use/UnknownElementException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/element/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/MirroredTypeException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/MirroredTypesException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/NoType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/NullType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/PrimitiveType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/ReferenceType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/TypeKind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/TypeMirror.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/TypeVariable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/TypeVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/UnionType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/MirroredTypeException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/MirroredTypesException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/NoType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/NullType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/PrimitiveType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/ReferenceType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/TypeKind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/TypeMirror.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/TypeVariable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/TypeVisitor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/class-use/UnionType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/type/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleAnnotationValueVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleAnnotationValueVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleAnnotationValueVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleAnnotationValueVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleAnnotationValueVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleElementVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleElementVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleElementVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleElementVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleElementVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleTypeVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleTypeVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleTypeVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleTypeVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/SimpleTypeVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/TypeKindVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/TypeKindVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/TypeKindVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/TypeKindVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/TypeKindVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/Types.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleAnnotationValueVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleAnnotationValueVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleAnnotationValueVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleAnnotationValueVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleAnnotationValueVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleElementVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleElementVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleElementVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleElementVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleElementVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleTypeVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleTypeVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleTypeVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleTypeVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/SimpleTypeVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/TypeKindVisitor14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/TypeKindVisitor6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/TypeKindVisitor7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/TypeKindVisitor8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/TypeKindVisitor9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/class-use/Types.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/lang/model/util/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/OptionChecker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/SimpleJavaFileObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/StandardJavaFileManager.PathFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/StandardJavaFileManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/StandardLocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/Tool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/ToolProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/OptionChecker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/SimpleJavaFileObject.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/StandardJavaFileManager.PathFactory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/StandardJavaFileManager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/StandardLocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/Tool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/class-use/ToolProvider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/javax/tools/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/module-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.compiler/module-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/MimeTypeParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/StringSelection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/SystemFlavorMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/Transferable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/class-use/MimeTypeParseException.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/class-use/StringSelection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/class-use/SystemFlavorMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/class-use/Transferable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/java/awt/datatransfer/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/module-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.datatransfer/module-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/applet/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/applet/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/applet/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MediaTracker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Menu.AccessibleAWTMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuBar.AccessibleAWTMenuBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuComponent.AccessibleAWTMenuComponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuComponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuContainer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuItem.AccessibleAWTMenuItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MenuShortcut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MouseInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MultipleGradientPaint-sealed-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MultipleGradientPaint.ColorSpaceType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MultipleGradientPaint.CycleMethod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/MultipleGradientPaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PageAttributes.ColorType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PageAttributes.MediaType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PageAttributes.OrientationRequestedType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PageAttributes.OriginType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PageAttributes.PrintQualityType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PageAttributes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Paint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PaintContext.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Panel.AccessibleAWTPanel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Point.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PointerInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Polygon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PopupMenu.AccessibleAWTPopupMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PopupMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PrintGraphics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/PrintJob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/RadialGradientPaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Rectangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/RenderingHints.Key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/RenderingHints.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Robot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/ScrollPane.AccessibleAWTScrollPane.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/ScrollPane.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/ScrollPaneAdjustable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Scrollbar.AccessibleAWTScrollBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Scrollbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/SecondaryLoop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Shape.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/SplashScreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Stroke.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/SystemColor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/SystemTray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Taskbar.Feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Taskbar.State.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Taskbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextArea.AccessibleAWTTextArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextComponent-sealed-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextComponent.AccessibleAWTTextComponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextComponent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextField.AccessibleAWTTextField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TextField.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TexturePaint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Toolkit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/Transparency.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TrayIcon.MessageType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/TrayIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/dnd/MouseDragGestureRecognizer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/dnd/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/dnd/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/java/awt/package-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/module-graph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/api/java.desktop/module-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.서블릿&amp;jsp/exam02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exam05/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exam05/Ex01.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZsGAOllGjEnOFsknx3tItOMggo" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;reply&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/yeji/4.자바보강/ioex&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\yeji\4.자바보강\ioex" />
+      <recent name="D:\yeji\4.자바보강\ioex\src" />
+      <recent name="D:\yeji\4.자바보강\ioex\src\exam02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.exam05.Ex01">
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam04.Ex01" />
+      <module name="ioex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam04.Ex02" />
+      <module name="ioex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam03.Ex05" />
+      <module name="ioex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam03.Ex07" />
+      <module name="ioex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exam05.Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam05.Ex01" />
+      <module name="ioex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.exam05.Ex01" />
+        <item itemvalue="Application.Ex02" />
+        <item itemvalue="Application.Ex01" />
+        <item itemvalue="Application.Ex07" />
+        <item itemvalue="Application.Ex05" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ab7fbf-3365-4ad8-9253-8f7dae7fbfa4" name="Changes" comment="" />
+      <created>1703203231272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703203231272</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exam04/Ex01.java</url>
+          <line>9</line>
+          <properties class="exam04.Ex01" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
