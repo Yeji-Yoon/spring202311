@@ -17,6 +17,15 @@ public class JoinService {
 
     }
 
+    public void join(HttpservletRequest request) {
+        Member member = Member.builder()
+                .userId(request.getParameter("userId"))
+                .userPw(request.getParameter("userPw"))
+                .confirmPw(request.getParameter("cibfirmNm"))
+                .userNm(request.getParameter("userNm"))
+                .build();
+    }
+
     //public void join(HttpServletRequest request) {
 
     //}

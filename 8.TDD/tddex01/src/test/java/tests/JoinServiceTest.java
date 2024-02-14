@@ -1,6 +1,6 @@
 package tests;
 
-import lombok.Builder;
+
 import member.controllers.JoinValidator;
 import member.controllers.Member;
 import member.service.BadRequestException;
@@ -9,14 +9,21 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 @DisplayName("회원가입 기능 테스트")
 public class JoinServiceTest {
 
     private JoinService joinService;
 
+    private HttpServletRequest request;
+
     @BeforeEach
     void init() {
+
         joinService = new JoinService(new JoinValidator());
+
+        request = mock(HttpServletRequest.class);
+        //given()
     }
 
     private Member getMember() {
@@ -33,6 +40,14 @@ public class JoinServiceTest {
     void joinSuccess() {
         assertDoesNotThrow(() -> {
             joinService.join(getMember());
+        });
+    }
+
+    @Test
+    @DisplayName("회원가입 성공 테스트 - 요청데이터")
+    void joinSuccessWithRequest() {
+        assertDoesNotThrow(() -> {
+            joinService.join(request);
         });
     }
 
