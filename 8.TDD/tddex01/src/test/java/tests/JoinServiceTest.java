@@ -1,5 +1,6 @@
 package tests;
 
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.Builder;
 import member.controllers.JoinValidator;
 import member.controllers.Member;
@@ -8,15 +9,23 @@ import member.service.JoinService;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.mock;
 
 @DisplayName("회원가입 기능 테스트")
 public class JoinServiceTest {
 
     private JoinService joinService;
 
+    private HttpServletRequest request;
+
     @BeforeEach
     void init() {
+
         joinService = new JoinService(new JoinValidator());
+
+        request = mock(HttpServletRequest.class);
+        //given()
     }
 
     private Member getMember() {
@@ -37,12 +46,25 @@ public class JoinServiceTest {
     }
 
     @Test
-    @DisplayName("필수 입력항목(userId, userPw, confirmPw, userNm) 검증, 실패시에는 BadRequestException 발생")
-    void requiredField() {
-
+    @DisplayName("회원가입 성공 테스트 - 요청데이터")
+    void joinSuccessWithRequest() {
+        assertDoesNotThrow(() -> {
+            joinService.join(request);
+        });
     }
 
-    private void requiredFieldTestEach(String field) {
+    @Test
+    @DisplayName("필수 입력항목(userId, userPw, confirmPw, userNm) 검증, 실패시에는 BadRequestException 발생")
+    void requiredField() {
+        assertAll(
+                () -> requiredFieldTestEach("userId", "아이디"),
+                () -> requiredFieldTestEach("userPw", "비밀번호"),
+                () -> requiredFieldTestEach("confirmPw", "비밀번호를 확인"),
+                () -> requiredFieldTestEach("userNm", "회원명")
+        );
+    }
+
+    private void requiredFieldTestEach(String field, String keyword) {
         Member memberNull = getMember();
         Member memberBlank = getMember();
         if (field.equals("userId")) {
@@ -50,7 +72,9 @@ public class JoinServiceTest {
             memberBlank.setUserId("     ");
         } else if (field.equals("userPw")) {
             memberNull.setUserPw(null);
+            //memberNull.setUserId(null);
             memberBlank.setUserPw("     ");
+            //memberBlank.setUserId("   ");
         } else if (field.equals("confirmPw")) {
             memberNull.setConfirmPw(null);
             memberBlank.setConfirmPw("     ");
@@ -61,10 +85,14 @@ public class JoinServiceTest {
 
         assertAll(
                 () -> {
-                    BadRequestException thrown = assertThrows(BadRequestException.class, () -> joinService.join(memberNull));
+                    BadRequestException thrown =  assertThrows(BadRequestException.class, () -> joinService.join(memberNull));
+                    String message = thrown.getMessage();
+                    assertTrue(message.contains(keyword));
                 },
                 () -> {
-                    assertThrows(BadRequestException.class, () -> joinService.join(memberBlank));
+                    BadRequestException thrown = assertThrows(BadRequestException.class, () -> joinService.join(memberBlank));
+                    String message = thrown.getMessage();
+                    assertTrue(message.contains(keyword));
                 }
         );
     }

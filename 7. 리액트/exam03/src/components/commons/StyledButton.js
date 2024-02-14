@@ -8,7 +8,7 @@ const { small: fSmall, medium: fMedium, big: fBig } = fontSiezes;
 const commonStyle = css`
     border: 0;
     cursor: pointer;
-    border: radius: 5px;
+    border-radius: 5px;
 `;
 
 export const SmallButton = styled.button`
