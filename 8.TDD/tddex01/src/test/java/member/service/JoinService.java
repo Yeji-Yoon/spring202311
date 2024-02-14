@@ -4,6 +4,7 @@ import commons.Validator;
 import member.controllers.Member;
 
 public class JoinService {
+
     private Validator<Member> joinValidator;
 
 
@@ -15,4 +16,8 @@ public class JoinService {
         joinValidator.check(member);
 
     }
+
+    //public void join(HttpServletRequest request) {
+
+    //}
 }

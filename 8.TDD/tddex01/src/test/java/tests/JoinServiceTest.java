@@ -39,10 +39,15 @@ public class JoinServiceTest {
     @Test
     @DisplayName("필수 입력항목(userId, userPw, confirmPw, userNm) 검증, 실패시에는 BadRequestException 발생")
     void requiredField() {
-
+        assertAll(
+                () -> requiredFieldTestEach("userId", "아이디"),
+                () -> requiredFieldTestEach("userPw", "비밀번호"),
+                () -> requiredFieldTestEach("confirmPw", "비밀번호를 확인"),
+                () -> requiredFieldTestEach("userNm", "회원명")
+        );
     }
 
-    private void requiredFieldTestEach(String field) {
+    private void requiredFieldTestEach(String field, String keyword) {
         Member memberNull = getMember();
         Member memberBlank = getMember();
         if (field.equals("userId")) {
@@ -50,7 +55,9 @@ public class JoinServiceTest {
             memberBlank.setUserId("     ");
         } else if (field.equals("userPw")) {
             memberNull.setUserPw(null);
+            //memberNull.setUserId(null);
             memberBlank.setUserPw("     ");
+            //memberBlank.setUserId("   ");
         } else if (field.equals("confirmPw")) {
             memberNull.setConfirmPw(null);
             memberBlank.setConfirmPw("     ");
@@ -61,10 +68,14 @@ public class JoinServiceTest {
 
         assertAll(
                 () -> {
-                    BadRequestException thrown = assertThrows(BadRequestException.class, () -> joinService.join(memberNull));
+                    BadRequestException thrown =  assertThrows(BadRequestException.class, () -> joinService.join(memberNull));
+                    String message = thrown.getMessage();
+                    assertTrue(message.contains(keyword));
                 },
                 () -> {
-                    assertThrows(BadRequestException.class, () -> joinService.join(memberBlank));
+                    BadRequestException thrown = assertThrows(BadRequestException.class, () -> joinService.join(memberBlank));
+                    String message = thrown.getMessage();
+                    assertTrue(message.contains(keyword));
                 }
         );
     }
