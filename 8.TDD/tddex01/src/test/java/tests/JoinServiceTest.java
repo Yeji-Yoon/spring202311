@@ -1,6 +1,6 @@
 package tests;
 
-
+import lombok.Builder;
 import member.controllers.JoinValidator;
 import member.controllers.Member;
 import member.service.BadRequestException;
