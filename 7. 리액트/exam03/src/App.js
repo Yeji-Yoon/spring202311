@@ -1,7 +1,7 @@
-import SassComponent from './components/SassComponent';
+import LoginForm from './components/LoginForm';
 
 const App = () => {
-  return <SassComponent />;
+  return <LoginForm />;
 };
 
 export default App;
