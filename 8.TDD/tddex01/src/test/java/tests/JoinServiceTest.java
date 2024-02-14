@@ -1,5 +1,6 @@
 package tests;
 
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.Builder;
 import member.controllers.JoinValidator;
 import member.controllers.Member;
@@ -8,7 +9,8 @@ import member.service.JoinService;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+import static org.mockito.BDDMockito.given;
+import static org.mockito.Mockito.mock;
 
 @DisplayName("회원가입 기능 테스트")
 public class JoinServiceTest {
