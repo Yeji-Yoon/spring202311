@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import styled from 'styled-components';
+import { produce } from 'immer';
 import TodoForm from '../../components/todo/TodoForm';
 import TodoList from '../../components/todo/TodoList';
 
@@ -16,16 +17,47 @@ const ContentBox = styled.div`
   }
 `;
 
-const todos = [
-  { id: 1, title: '할일1' },
-  { id: 2, title: '할일2' },
-];
-
 const TodoContainer = () => {
+  const [todos, setTodos] = useState([]);
+  const [title, setTitle] = useState('');
+
+  const onSubmit = useCallback(
+    (e) => {
+      e.preventDefault();
+
+      setTodos(
+        produce((draft) => {
+          draft.push({ id: draft.length + 1, title });
+        }),
+      );
+
+      setTitle('');
+    },
+    [title],
+  );
+
+  const onChange = useCallback(
+    (e) => setTitle(() => e.target.value.trim()),
+    [],
+  );
+
+  const onDoubleClick = useCallback(
+    (id) =>
+      setTodos(
+        produce((draft) => {
+          draft.splice(
+            draft.findIndex((todo) => todo.id === id),
+            1,
+          );
+        }),
+      ),
+    [],
+  );
+
   return (
     <ContentBox>
-      <TodoForm />
-      <TodoList todos={todos} />
+      <TodoForm onSubmit={onSubmit} onChange={onChange} title={title} />
+      <TodoList todos={todos} onDoubleClick={onDoubleClick} />
     </ContentBox>
   );
 };
