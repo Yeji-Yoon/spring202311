@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            window.addEventListener("DOMContentLoaded", function() {
+                const button = document.getElementById("button");
+                button.addEventListener("click", (e) => {
+                    console.log("currentTarget : ", e.currentTarget);
+                    console.log("target : ", e.target);
+                    console.log("this : ", this);
+                }); 
+            });
+        </script>
+        <div id="button">
+            <span>클릭!</span>
+        </div>
+    </body>
+</html>
