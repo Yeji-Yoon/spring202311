@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <style>
+            body {
+                margin: 0;
+            }
+
+            .box { 
+                height: 300px;
+                background: #000;
+            }
+            
+            .box:nth-of-type(2n) {
+                background: orange;
+            }
+
+            @media all and (min-width: 720px) {
+                .box {
+                    width: 50%;
+                    float: left;
+                }
+            }
+        </style>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </body>
+</html>

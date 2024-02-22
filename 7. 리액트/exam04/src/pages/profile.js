@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation, useSearchParams } from 'react-router-dom';
 
 const profiles = {
   user01: {
@@ -15,6 +15,13 @@ const profiles = {
 const Profile = () => {
   const { username } = useParams();
   const { name, age } = profiles[username];
+
+  //const location = useLocation();
+  //console.log(location);
+  const [searchParams, setSearchParams] = useSearchParams();
+  setSearchParams({ sopt: 'name', skey: '이이름' });
+  console.log(searchParams.get('sopt'));
+  console.log(searchParams.get('skey'));
   return (
     <>
       <div>이름 : {name}</div>

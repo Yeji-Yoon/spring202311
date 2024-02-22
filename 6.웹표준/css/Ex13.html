@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <style>
+            .box {
+                width: 100px;
+                height: 100px;
+            }
+
+            .box1 {
+                background: orange;
+                position: static;
+                left: 100px;
+                top: 100px;
+            }
+            
+            .box2 {
+                background: green;
+                position: absolute;
+                right: 100px;
+                bottom: 100px;
+            }
+
+            .box3 {
+                background: blue; 
+                position: fixed;
+                bottom: 100px;
+                right: 100px;
+            }
+            .wrap {
+                width: 700px;
+                height: 5000px;
+                border: 1px solid red;
+                margin: 100px;
+                position: relative;
+            }
+        </style>
+        <div class="box box1"></div>
+
+        <div class="wrap">
+            <div class="box box2"></div>
+        </div>
+
+        <div class="box box3"></div>
+    </body>
+</html>

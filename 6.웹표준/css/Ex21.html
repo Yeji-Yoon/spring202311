@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        
+        <style>
+            .menus > div:nth-of-type(3n+1) { 
+                background: red;
+            }
+            
+            .menus > div:nth-of-type(3n+2) {
+                background: green;
+            }
+
+            .menus > div:nth-of-type(3n) {
+                background: blue;
+            }
+
+            .menus {
+                display: flex;
+                height: 100px;
+                border: 1px solid #000;
+            }
+            
+            .menus1 {
+                flex-wrap: wrap;
+            }
+
+            .menus1 > div {
+                width: 300px;
+            }
+
+            .menus2 {
+                align-items: flex-start;
+            }
+
+            .menus3 {
+                align-items: flex-end;
+            }
+
+            .menus4 {
+                align-items: center;
+            }
+        </style>
+        <h1>flex-wrap</h1>
+        <div class="menus menus1">
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <h1>flex-start("위쪽")</h1>
+        <div class="menus menus2">
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+        </div>
+        
+        <h1>flex-end("아래쪽")</h1>
+        <div class="menus menus3">
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+        </div>
+
+        <h1>center("가운데")</h1>
+        <div class="menus menus4">
+            <div>메뉴1</div>
+            <div>메뉴2</div>
+            <div>메뉴3</div>
+        </div>
+    </body>
+</html>
