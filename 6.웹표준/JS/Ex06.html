@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            window.addEventListener("DOMContentLoaded", function() {
+                frmSchedule.addEventListener("submit", function(e) {
+                    e.preventDefault();
+
+                    const text = frmSchedule.schedule.value.trim();
+                    const li = document.createElement("li");
+                    const textEl = document.createTextNode(text);
+                    
+                    li.appendChild(textEl);
+                    
+                    const items = document.getElementById("items");
+                    const children = items.children;
+                    items.insertBefore(li, children[children.length - 1]);
+
+                    //items.appendChild(li);
+
+                   frmSchedule.schedule.value = "";
+                   frmSchedule.schedule.focus();
+                    
+                   li.addEventListener("dblclick", function() {
+                        this.parentElement.removeChild(this);
+                   });
+
+                });
+            });
+        </script>
+        <form name="frmSchedule" method="post">
+            <input type="text" name="schedule" id="schedule">
+        </form>
+
+        <ul id="items">
+            <li>스케줄1</li>
+            <li>스케줄3</li>
+        </ul>
+    </body>
+</html>
